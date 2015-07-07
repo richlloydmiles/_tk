@@ -5,7 +5,7 @@ module.exports = function(grunt) {
 		sass: {
 			dist: {
 				files: {
-					'includes/resources/bootstrap/css/bootstrap.min.css' : 'includes/resources/bootstrap/css/custom.scss'
+					'includes/resources/bootstrap/css/bootstrap.min.css' : 'style.scss'
 				},
 				options : {
 					style : 'compressed'
@@ -14,7 +14,7 @@ module.exports = function(grunt) {
 		},
 		watch: {
 			css: {
-				files: 'includes/resources/bootstrap/css/*.scss',
+				files: 'style.scss',
 				tasks: ['sass']
 			}
 		}
