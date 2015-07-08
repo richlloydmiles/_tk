@@ -1,0 +1,9 @@
+.woocommerce ul.products li.product .button,
+button.single_add_to_cart_button.button.alt {
+	@extend .btn;
+	@extend .btn-primary;
+} 
+
+.woocommerce span.onsale {
+	line-height: 34px;
+}  

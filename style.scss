@@ -1,11 +1,4 @@
+//include bootstrap styling
 @import "includes/resources/bootstrap/css/bootstrap";
-
-.woocommerce ul.products li.product .button,
-button.single_add_to_cart_button.button.alt {
-	@extend .btn;
-	@extend .btn-primary;
-} 
-
-.woocommerce span.onsale {
-	line-height: 34px;
-} 
+//include wooCommerce Styling
+@import "includes/resources/wooCommerce/woo-styles"; 
